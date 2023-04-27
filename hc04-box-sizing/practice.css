@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  text-align: center;
+}
+h1 {
+  margin: 20px;
+}
+.top-nav a {
+  text-decoration: none;
+  color: black;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  padding: 10px;
+  width: 80px;
+  /*! Inline element icerik kadar yer kaplarlar. Bu sebepten dolayi margin ve padding top ve bottom degerlerini alamazlar. Bu ozelikleri kullanmak icin elementler display property si ile inline-block haline getirilebilr*/
+  display: inline-block;
+}

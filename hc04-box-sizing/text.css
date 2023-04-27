@@ -42,7 +42,16 @@ body {
 .indent {
   text-indent: 12px;
 }
-.direct{
+.direct {
   text-align: right;
   direction: rtl;
+}
+.text-shadow {
+  text-shadow: 3px 5px 5px rgb(170, 21, 175);
+}
+.box-shadow {
+  background-color: rgb(221, 221, 62);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 10px black;
 }
