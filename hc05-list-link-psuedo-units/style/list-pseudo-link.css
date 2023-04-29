@@ -143,6 +143,6 @@ nav.links a:hover {
 ul.before-after li::before {
   content: "✨";
 }
-ul.before-after li:nth-child(3)::before{
-    content: "🌀";
-  }
+ul.before-after li:nth-child(1)::before {
+  content: "🏎";
+}
