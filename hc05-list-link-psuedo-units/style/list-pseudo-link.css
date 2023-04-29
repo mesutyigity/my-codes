@@ -140,6 +140,9 @@ nav.links a:hover {
 .p-elements::first-letter {
   font-size: 30px;
 }
-ul .before-after {
-
+ul.before-after li::before {
+  content: "✨";
 }
+ul.before-after li:nth-child(3)::before{
+    content: "🌀";
+  }
