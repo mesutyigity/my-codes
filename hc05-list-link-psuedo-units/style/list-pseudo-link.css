@@ -1,98 +1,98 @@
 body {
-  font-family: "Quicksand", sans-serif;
-}
-
-/** class'ı language olan ul elementini sec */
-ul.languages {
-  font-family: "Bruno Ace SC", cursive;
-
-  /*? Madde imi stilleri */
-  list-style-type: circle;
-  list-style-type: square;
-  list-style-type: none;
-  list-style-type: lower-latin;
-  list-style-type: georgian;
-
-  /*? Madde iminin yeri li'lerin içerisinde mi yoksa dışında mı olacak */
-  list-style-position: outside;
-
-  /*? Madde imlerinin soldaki boşluğunu ayarlamak için */
-  padding: 20px;
-
-  /*? madde iminin seklini linkteki icona gore sec */
-  list-style-image: url("../img/igloo-solid.svg");
-}
-
-h2 {
-  color: blueviolet;
-}
-
-/*? h2 icerisindeki i elementine uygula */
-h2 i {
-  /** iconlarin buyuklugunu 40px yap */
-  font-size: 40px;
-}
-
-/*? fa-solid adindaki class'a uygula */
-.fa-solid {
-  /** iconlarin rengini red yap */
-  color: red;
-}
-/*!----- PSEUDO CLASSES ------- */
-ul.pseudo li {
-  background-color: darkgray;
-  font-weight: 700;
-}
-
-ul.pseudo li:first-child {
-  color: blue;
-}
-
-ul.pseudo li:last-child {
-  color: green;
-}
-
-ul.pseudo li:nth-child(5) {
-  color: purple;
-  font-weight: 300;
-}
-
-ul.pseudo li:nth-child(odd) {
-  color: hotpink;
-  background-color: lightgray;
-}
-
-ul.pseudo li:nth-child(even) {
-  color: lightsalmon;
-}
-
-/*?Tek degilse */
-/* ul.pseudo li:not(odd) {
+    font-family: "Quicksand", sans-serif;
+  }
+  
+  /** class'ı language olan ul elementini sec */
+  ul.languages {
+    font-family: "Bruno Ace SC", cursive;
+  
+    /*? Madde imi stilleri */
+    list-style-type: circle;
+    list-style-type: square;
+    list-style-type: none;
+    list-style-type: lower-latin;
+    list-style-type: georgian;
+  
+    /*? Madde iminin yeri li'lerin içerisinde mi yoksa dışında mı olacak */
+    list-style-position: outside;
+  
+    /*? Madde imlerinin soldaki boşluğunu ayarlamak için */
+    padding: 20px;
+  
+    /*? madde iminin seklini linkteki icona gore sec */
+    list-style-image: url("../img/igloo-solid.svg");
+  }
+  
+  h2 {
+    color: blueviolet;
+  }
+  
+  /*? h2 icerisindeki i elementine uygula */
+  h2 i {
+    /** iconlarin buyuklugunu 40px yap */
+    font-size: 40px;
+  }
+  
+  /*? fa-solid adindaki class'a uygula */
+  .fa-solid {
+    /** iconlarin rengini red yap */
+    color: red;
+  }
+  /*!----- PSEUDO CLASSES ------- */
+  ul.pseudo li {
+    background-color: darkgray;
+    font-weight: 700;
+  }
+  
+  ul.pseudo li:first-child {
+    color: blue;
+  }
+  
+  ul.pseudo li:last-child {
+    color: green;
+  }
+  
+  ul.pseudo li:nth-child(5) {
+    color: purple;
+    font-weight: 300;
+  }
+  
+  ul.pseudo li:nth-child(odd) {
+    color: hotpink;
+    background-color: lightgray;
+  }
+  
+  ul.pseudo li:nth-child(even) {
+    color: lightsalmon;
+  }
+  
+  /*?Tek degilse */
+  /* ul.pseudo li:not(odd) {
     background-color: green;
   } */
-
-/*? Fare ile li'lerin üzerine gelindiğinde  */
-ul.pseudo li:hover {
-  background-color: black;
-  cursor: pointer;
-  /* display: inline-block; */
-}
-/*? Farenin sol tuşu ile bir li'y tiklanidiginda  */
-ul.pseudo li:active {
-  background-color: green;
-}
-
-/*? input aktif hale geldiginde  */
-input:focus {
-  background-color: tomato;
-  color: white;
-  border: 4px dotted white;
-  outline: none;
-}
-
-/*! ------ LINK PSEUDO CLASSES --------  */
-
-/* nav.links a {
+  
+  /*? Fare ile li'lerin üzerine gelindiğinde  */
+  ul.pseudo li:hover {
+    background-color: black;
+    cursor: pointer;
+    /* display: inline-block; */
+  }
+  /*? Farenin sol tuşu ile bir li'y tiklanidiginda  */
+  ul.pseudo li:active {
+    background-color: green;
+  }
+  
+  /*? input aktif hale geldiginde  */
+  input:focus {
+    background-color: tomato;
+    color: white;
+    border: 4px dotted white;
+    outline: none;
+  }
+  
+  /*! ------ LINK PSEUDO CLASSES --------  */
+  
+  /* nav.links a {
     color: crimson;
     text-decoration: none;
   }
@@ -101,28 +101,28 @@ input:focus {
     color: purple;
     text-decoration: underline;
   } */
-
-/*? Ziyaret edilmemis link'leri secmek icin */
-nav.links a:link {
-  color: brown;
-}
-/*? Ziyaret edilmis link'leri secmek icin */
-nav.links a:visited {
-  color: lightpink;
-}
-
-/*? Link'ler tiklanildigi sure boyunca secmek icin */
-nav.links a:active {
-  color: magenta;
-}
-/*? Fare ile link'lerin uzerine gelindiginde secmek icin */
-nav.links a:hover {
-  color: chartreuse;
-  text-decoration: none;
-}
-
-/*? class'i x olan p elementinin icerinde .y class'inin içindeki z id'li elementi sec  */
-/* p.x .y #z{
+  
+  /*? Ziyaret edilmemis link'leri secmek icin */
+  nav.links a:link {
+    color: brown;
+  }
+  /*? Ziyaret edilmis link'leri secmek icin */
+  nav.links a:visited {
+    color: lightpink;
+  }
+  
+  /*? Link'ler tiklanildigi sure boyunca secmek icin */
+  nav.links a:active {
+    color: magenta;
+  }
+  /*? Fare ile link'lerin uzerine gelindiginde secmek icin */
+  nav.links a:hover {
+    color: chartreuse;
+    text-decoration: none;
+  }
+  
+  /*? class'i x olan p elementinin icerinde .y class'inin içindeki z id'li elementi sec  */
+  /* p.x .y #z{
   }
   <p class="x">
   <div class="y">
@@ -130,19 +130,37 @@ nav.links a:hover {
     <div class="k"></div>  
   </div>
   </p> */
-
-/*! ------  PSEUDO ELEMENTS --------  */
-
-.p-elements::first-line {
-  color: red;
-}
-
-.p-elements::first-letter {
-  font-size: 30px;
-}
-ul.before-after li::before {
-  content: "✨";
-}
-ul.before-after li:nth-child(1)::before {
-  content: "🏎";
-}
+  
+  /*! ------  PSEUDO ELEMENTS --------  */
+  
+  .p-elements::first-line {
+    color: red;
+  }
+  
+  .p-elements::first-letter {
+    font-size: 30px;
+  }
+  
+  ul.before-after li::before {
+    content: "👏";
+  }
+  
+  ul.before-after li:nth-child(3)::before {
+    content: "🚘";
+  }
+  
+  ul.before-after li:last-child::after {
+    content: "🏎️";
+  }
+  
+  ul.before-after li:nth-child(2)::after {
+    content: " Nice Car";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 600;
+    content: "\f53a";
+  }
+  
+  ul.before-after li:nth-child(3):hover::after {
+    content: "🚘";
+  }
+  
