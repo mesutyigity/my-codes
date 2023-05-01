@@ -34,7 +34,7 @@ body {
 }
 
 .decoration {
-  color: green;
+  color: red;
 
   text-decoration: overline; /*? ust cizgi*/
   text-decoration: underline; /*? alt cizgi*/
