@@ -68,8 +68,8 @@ ul.pseudo li:nth-child(even) {
 
 /*?Tek degilse */
 /* ul.pseudo li:not(odd) {
-    background-color: green;
-  } */
+  background-color: green;
+} */
 
 /*? Fare ile li'lerin üzerine gelindiğinde  */
 ul.pseudo li:hover {
@@ -93,14 +93,14 @@ input:focus {
 /*! ------ LINK PSEUDO CLASSES --------  */
 
 /* nav.links a {
-    color: crimson;
-    text-decoration: none;
-  }
-  
-  nav.links a:hover {
-    color: purple;
-    text-decoration: underline;
-  } */
+  color: crimson;
+  text-decoration: none;
+}
+
+nav.links a:hover {
+  color: purple;
+  text-decoration: underline;
+} */
 
 /*? Ziyaret edilmemis link'leri secmek icin */
 nav.links a:link {
@@ -123,13 +123,13 @@ nav.links a:hover {
 
 /*? class'i x olan p elementinin icerinde .y class'inin içindeki z id'li elementi sec  */
 /* p.x .y #z{
-  }
-  <p class="x">
-  <div class="y">
-    <div id="z"></div>
-    <div class="k"></div>  
-  </div>
-  </p> */
+}
+<p class="x">
+<div class="y">
+  <div id="z"></div>
+  <div class="k"></div>  
+</div>
+</p> */
 
 /*! ------  PSEUDO ELEMENTS --------  */
 
