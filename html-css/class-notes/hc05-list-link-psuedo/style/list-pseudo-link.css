@@ -36,7 +36,7 @@ h2 i {
 /*? fa-solid adindaki class'a uygula */
 .fa-solid {
   /** iconlarin rengini red yap */
-  color: red;
+  color: rgb(0, 0, 0);
 }
 /*!----- PSEUDO CLASSES ------- */
 ul.pseudo li {
