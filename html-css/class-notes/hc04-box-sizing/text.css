@@ -30,7 +30,7 @@ body {
   color: red;
 } */
 #my-body .text-style span {
-  color: red;
+  color: blue;
 }
 
 .decoration {
@@ -50,7 +50,7 @@ body {
 }
 
 .spacing {
-  color: yellowgreen;
+  color: rgb(135, 50, 205);
   letter-spacing: 4px; /*?Harfler arasi mesafe*/
   word-spacing: 10px; /*?Kelimler arasi mesafe*/
   line-height: 1.4; /*?satir yükseliği*/
