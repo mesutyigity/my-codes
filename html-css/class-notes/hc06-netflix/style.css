@@ -5,6 +5,7 @@
 
 body {
   /* background-image: url(./img/netflix-background-image.png); */
+  color: #ffffff;
 }
 
 #container {
@@ -20,4 +21,13 @@ body {
   font-size: 50px;
   letter-spacing: 0.05em;
   color: #ffffff;
+}
+#span {
+  color: #ff0000;
+}
+#description {
+  font-family: "Sorts Mill Goudy", serif;
+}
+#header {
+  text-align: center;
 }
