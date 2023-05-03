@@ -17,4 +17,7 @@ body {
 }
 #title {
   font-family: "Bowlby One SC", cursive;
+  font-size: 50px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
 }
