@@ -4,7 +4,7 @@
 }
 
 body {
-  /* background-image: url(./img/netflix-background-image.png); */
+  /* background-image: url(./img/background_image_.jpg); */
   color: #ffffff;
 }
 
@@ -30,4 +30,12 @@ body {
 }
 #header {
   text-align: center;
+}
+#survey-form-container {
+  width: 500px;
+  height: 800px;
+  margin: auto;
+  padding: 30px 40px;
+  margin-bottom: 30px;
+  background-color: rgba(0, 0, 0, 0.8);
 }
