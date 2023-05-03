@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -33,9 +34,50 @@ body {
 }
 #survey-form-container {
   width: 500px;
-  height: 800px;
+  height: 890px;
   margin: auto;
   padding: 30px 40px;
   margin-bottom: 30px;
   background-color: rgba(0, 0, 0, 0.8);
+}
+
+#name,
+#age,
+#email,
+#dropdown {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.input-box {
+  margin-top: 20px;
+}
+#checkbox,
+#radio {
+  margin-top: 40px;
+}
+textarea {
+  resize: none;
+  height: 91.46px;
+  width: 100%;
+}
+#form-button {
+  width: 160px;
+  border-radius: 50px;
+  height: 45px;
+  background-color: #ff0000;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 20px;
+}
+#form-button:hover {
+  background-color: #fff;
+  color: #ff0000;
+}
+.form-submit {
+  text-align: center;
+  /* width: 160px;
+margin: auto; */
 }
