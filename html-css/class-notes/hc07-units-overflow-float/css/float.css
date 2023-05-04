@@ -1,4 +1,10 @@
-.float-img {
+img {
   width: 30%;
+}
+.float-img {
   float: left;
 }
+.text {
+  float: right;
+}
+
