@@ -1,0 +1,14 @@
+h1 {
+  color: red;
+  /*! Default 32px */
+  font-size: 30px;
+}
+/*! -------- MUTLAK OLCU BIRIMLERI ------ */
+p.abs {
+  /*! Default 16px */
+
+  font-size: 1cm;
+  font-size: 10mm;
+  font-size: 1in;
+  font-size: 50px;
+}
