@@ -1,6 +1,4 @@
 .float-img {
   width: 30%;
-}
-.text {
-  display: inline-block;
+  float: left;
 }
