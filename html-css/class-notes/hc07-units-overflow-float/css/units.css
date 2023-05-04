@@ -1,3 +1,7 @@
+body {
+  /** body nin default font size'ı 16px */
+}
+
 h1 {
   color: red;
   /*! Default 32px */
@@ -10,5 +14,11 @@ p.abs {
   font-size: 1cm;
   font-size: 10mm;
   font-size: 1in;
-  font-size: 50px;
+  font-size: 10px;
+}
+
+/*?  % biriminde bir html elemaninin font size'i parent'in font-size'ina gore oranlanir. */
+p.percent {
+  font-size: 200%; /*? 16px * 2  = 32px  */
+  font-size: 50%; /*? 16px / 2  = 8px  */
 }
