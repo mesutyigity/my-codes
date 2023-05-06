@@ -159,11 +159,51 @@ console.log(alan);
 //? ++ ve -- operatörleri 1 artırır veya 1 eksiltir
 
 // sonrası artırma ve eksiltme
-let number1 = 6;
-//  let artirNew = number1 // 6
-//  number1= number1 +1// 7
-let number1New = number1++; // önce atadı sonrasında number1 değişkenini bir number1dı
-console.log(number1New); // 6
-console.log(number1New); // 6
-console.log(number1); // 7
-console.log(number1New);
+// let number1 = 6;
+// //  let artirNew = number1 // 6
+// //  number1= number1 +1// 7
+// let number1New = number1++; // önce atadı sonrasında number1 değişkenini bir number1dı
+// console.log(number1New); // 6
+// console.log(number1); // 7
+// console.log(number1New); // 6
+
+// let newSayi = ++number1; // önce artır sonra ata
+// console.log(newSayi); //8
+// console.log(--newSayi); // 7
+// console.log(newSayi--); // 7
+
+//! 🔥🔥🔥              Atama Operatörleri
+
+let nums1 = 14;
+let nums2 = 17;
+//! += Ekle ve Sonucu Ata
+// nums2 = nums2 + nums1;
+//? yukarıdaki gibi uzun uzun yazmak yerine += operatörünü kullanarak işlemimi kısaltmış oldum. Aynı şekilde diğer operatörler içinde geçerli.
+// nums2 += nums1;
+// console.log(nums2); // 31
+
+let num14 = 6;
+let num15 = 3;
+
+//! -= Çıkar ve Sonucu Ata
+// num14 = num14 - num15;
+// num14 -= num15;
+// console.log(num14); // 3
+
+//! *= Çarp ve Sonucu Ata
+// num14 = num14 * num15;
+num14 *= num15;
+console.log(num14); //18
+//! /= Böl ve Sonucu Ata
+// num14 = num14 / num15;
+// num14 /= num15;
+// console.log(num14);
+//! /= Bölümden Kalanı Bul ve Ata
+// num14 = num14 % num15;
+// num14 %= num15;
+// console.log(num14);
+
+//! **= Üs Al ve Sonucu Ata
+// num14 = num14 ** num15;
+// num14 **= num15;
+// console.log(num14);
