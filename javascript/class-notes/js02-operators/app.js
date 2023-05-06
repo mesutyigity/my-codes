@@ -207,3 +207,15 @@ console.log(num14); //18
 // num14 = num14 ** num15;
 // num14 **= num15;
 // console.log(num14);
+
+// const num16 = 27;
+// console.log(num16 == 27);
+// console.log(num16 == "27");
+
+// const user1 = prompt("Lutfen bir sayi giriniz");
+// const user2 = prompt("Lutfen bir sayi giriniz");
+// console.log(user1);14
+// console.log(user2);
+
+// const isSame = user1 == user2;
+// console.log(isSame);
