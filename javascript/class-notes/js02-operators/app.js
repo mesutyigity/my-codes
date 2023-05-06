@@ -150,3 +150,20 @@ console.log(üs1 ** üs2);
 
 const pi = 3.14;
 const yariCap = 9;
+
+const alan = pi * yariCap ** 2;
+console.log(alan);
+
+//! 🔥🔥🔥              Artırma ve Eksiltme Operatörleri
+
+//? ++ ve -- operatörleri 1 artırır veya 1 eksiltir
+
+// sonrası artırma ve eksiltme
+let number1 = 6;
+//  let artirNew = number1 // 6
+//  number1= number1 +1// 7
+let number1New = number1++; // önce atadı sonrasında number1 değişkenini bir number1dı
+console.log(number1New); // 6
+console.log(number1New); // 6
+console.log(number1); // 7
+console.log(number1New);
