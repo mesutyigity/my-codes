@@ -139,3 +139,14 @@ const myVar1 = 6;
 // const randomNum2 = Math.random() * 10;
 // console.log(randomNum2);
 // console.log(Math.round(Math.random() * 10));
+
+//! ** (üs alma) operatörü
+
+const üs1 = 2;
+const üs2 = 3;
+console.log(üs1 ** üs2);
+
+// Dairenin alanı, pi çarpı yarıçapın karesidir (A = π r²).
+
+const pi = 3.14;
+const yariCap = 9;
