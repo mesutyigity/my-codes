@@ -1,6 +1,18 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul.nav {
+  background-color: cadetblue;
+  padding: 1rem;
+  list-style: none;
+  text-align: center;
+}
+ul.nav li {
+  background-color: chocolate;
+  width: 7rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
