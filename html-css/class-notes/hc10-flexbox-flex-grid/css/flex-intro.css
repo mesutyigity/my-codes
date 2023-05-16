@@ -6,10 +6,25 @@
 
 ul.nav {
   background-color: cadetblue;
+  list-style-type: none;
   padding: 1rem;
-  list-style: none;
+
+  /*? Yazilari hizalamak icin */
   text-align: center;
+
+  /*? Flex ozellgini aktif hale getirdik */
+  display: flex;
+
+  /*! Elemanların dizilis yonu : column, row, row-reverse, column-reverse*/
+  flex-direction: row; /*? defaut: row*/
+
+  /*? Satirlar arasi bosluk, ilk verilen satirlar arasi, 2. verilen sutunlar arasi bsoluktur */
+  gap: 2rem 4rem;
+
+  /*? sikistirma veya alt satira gecebilme:flex-wrap: wrap, nowrap, wrap-reverse*/
+  flex-wrap: wrap;
 }
+
 ul.nav li {
   background-color: chocolate;
   width: 7rem;
