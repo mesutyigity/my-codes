@@ -14,14 +14,14 @@
 
 //? ===================  CONST  ======================
 
-console.log("APP JS RUNNING");
+console.log("APP JS RUNNING")
 
-const pi = 3.14;
-console.log(pi);
-console.log(typeof pi);
+const pi = 3.14
+console.log(pi)
+console.log(typeof pi)
 
-const sayi1 = "3";
-console.log(typeof sayi1);
+const sayi1 = "3"
+console.log(typeof sayi1)
 
 //! caught SyntaxError: Missing initializer in const declaration (at app.js:27:7)
 // const deneme; //? const ile tanimlanan degiskene baslangic degeri verilmelidir.
@@ -31,9 +31,9 @@ console.log(typeof sayi1);
 // const number1 = 5
 // number1 = 7 //? const ile tanimlanan degiskene sonradan atama yapilamaz
 
-const varMi = true;
-const isOpen = false;
-console.log(isOpen, typeof isOpen);
+const varMi = true
+const isOpen = false
+console.log(isOpen, typeof isOpen)
 
 //? ======================  LET  ========================
 //* LET de CONST gibi yaygın kullanılan değişken tanımlama yöntemidir.
@@ -41,30 +41,30 @@ console.log(isOpen, typeof isOpen);
 //* CONST gibi tanımlandığı blok içerisinde geçerlidir. Başka yerlerden erişilemez. (Block-Scoped)
 //* CONST kullanamadığımız durumlarda (değişkenin değeri sürekli değişecekse) LET kullanmalıyız.
 
-let language = "Java";
-console.log(language, typeof language);
+let language = "Java"
+console.log(language, typeof language)
 
-language = "Javascript";
-console.log(language);
+language = "Javascript"
+console.log(language)
 
-language = true; //? atama
-console.log(language);
+language = true //? atama
+console.log(language)
 
-language = 3.14;
-console.log(language);
+language = 3.14
+console.log(language)
 
-let adet; //? Js bir degiskenin türünü atanan degere gore belirler. Eger atama olmadıysa türu undefined olarak belirlenmiş olur.
-console.log(adet); //?undefined
+let adet //? Js bir degiskenin türünü atanan degere gore belirler. Eger atama olmadıysa türu undefined olarak belirlenmiş olur.
+console.log(adet) //?undefined
 
-adet = "23"; //? atama
-console.log(typeof adet);
+adet = "23" //? atama
+console.log(typeof adet)
 
 {
   //? Bir blok icerisinde degisken olustruduk
-  let localDegisken = 5;
-  localDegisken = localDegisken + 1;
-  console.log(localDegisken);
+  let localDegisken = 5
+  localDegisken = localDegisken + 1
+  console.log(localDegisken)
 }
 
 //! Uncaught ReferenceError: localDegisken is not defined
-// console.log(localDegisken)
+console.log(localDegisken)
