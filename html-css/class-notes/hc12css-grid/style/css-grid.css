@@ -9,7 +9,7 @@
   /* grid-template-columns: 200px 4rem 1fr 2fr; */
   grid-template-columns: repeat(4, 1fr);
 
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr) 100px;
 }
 
 .content {
@@ -20,5 +20,23 @@
 .c6 img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: none;
+  object-position: center center;
+}
+.c11 {
+  overflow: auto;
+}
+.c12 {
+  background-image: url("https://cdn.pixabay.com/photo/2022/09/02/11/54/flowers-7427409__340.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.content {
+  /*! Grid Container icerisindeki item'lara Flex özelliği kazandirilabilir.
+    /*! Boylece item'larin icerisindeki content'lerin yatay ve dikey hizalamasi yapilabilir. */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
