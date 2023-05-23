@@ -6,13 +6,18 @@
 .grid {
   display: grid;
   height: 100vh;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas:
+    "header header header header"
+    "nav nav nav nav"
+    "aside main main main"
+    "footer footer footer footer";
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 200px 100px 1fr 100px;
   text-align: center;
 }
 
 header {
-  grid-column: span 12;
+  grid-area: header;
 }
 
 header img {
@@ -21,27 +26,32 @@ header img {
   object-fit: cover;
 }
 nav {
-  grid-column: span 12;
+  grid-area: nav;
   background-color: plum;
 }
 
 aside {
-  grid-column: span 3;
+  grid-area: aside;
   background-color: yellow;
 }
 main {
-  grid-column: span 9;
+  grid-area: main;
   background-color: yellowgreen;
 }
 
 footer {
-  grid-column: span 12;
+  grid-area: footer;
   background-color: violet;
 }
 
 @media screen and (max-width: 400px) {
-  aside,
-  main {
-    grid-column: span 12;
+  .grid {
+    grid-template-areas:
+      "header"
+      "nav"
+      "aside"
+      "main"
+      "footer";
+    grid-template-columns: auto;
   }
 }
