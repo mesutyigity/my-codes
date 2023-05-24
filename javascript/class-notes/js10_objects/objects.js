@@ -70,3 +70,9 @@ myCar.speed = 7;
 
 console.log(myCar.speed);
 console.log(myCar["model"]);
+
+console.log(myCar);
+
+//* ---------------------------------------------------------
+//* 3- object constructor'i kullanarak (OOP ile ayrintilandirilacak)
+//* ---------------------------------------------------------
