@@ -19,6 +19,37 @@
 }
 
 /*! ------------- 2- CAROUSEL --------------- */
+.carousel-item {
+  max-height: calc(100vh - 88px);
+}
+
+.carousel-caption h5 {
+  color: var(--red);
+  font-size: 2.4rem;
+  text-shadow: 3px 3px 3px black;
+}
+.carousel-caption p {
+  text-shadow: 3px 3px 3px black;
+  font-weight: 600;
+}
+
+.carousel-caption .btn {
+  width: 7rem;
+}
+.carousel-caption {
+  bottom: 6rem;
+}
+
+.carousel-indicators {
+  gap: 0.7rem;
+}
+
+/*! bootstrap tarafından verilmiş stilleri ezmek için !important kullanılması gerekir*/
+.carousel-indicators button {
+  background-color: var(--red) !important;
+  height: 0.4rem !important;
+  width: 3rem !important;
+}
 
 /*! ------------ 3- ABOUT SECTION ----------- */
 
