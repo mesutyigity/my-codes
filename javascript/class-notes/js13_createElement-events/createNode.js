@@ -20,5 +20,20 @@ const main = document.querySelector("main");
 main.appendChild(newP);
 
 //* item-list section'nın onune yeni elementi ekler.
+//! Element.before()  ve Element.after() appenChild gibi aslında bir elementi DOM Tree'ye baglar.
 const itemListSection = document.querySelector(".item-list");
 itemListSection.before(newP);
+
+//* ------- ID, CLASS GIBI OZELLIKLERI ATAMA ------
+//? 1) Yontem
+newP.id = "paragraf";
+newP.className = "par center";
+newP.name = "deneme";
+
+//? 2) setAttribute()
+newP.setAttribute("id", "new-id");
+newP.setAttribute("class", "new-class");
+newP.setAttribute("name", "new-class");
+newP.setAttribute("type", "button");
+
+//? 3) classList
