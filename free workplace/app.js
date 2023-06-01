@@ -1,6 +1,7 @@
-var changed = 0;
-function change(num) {
-return (num + 5) / 3;
+var myArray = [];
+var i = 0;
+while(i < 5) {
+myArray.push(i);
+i++;
 }
-changed = change (10);
-console.log (changed);
+console.log(myArray)
