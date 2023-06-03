@@ -22,7 +22,7 @@
     <!-- ! bootstrap stillerini ezebilmek için css linki en sonda olmalı -->
     <link rel="stylesheet" href="./css/app.css" />
   </head>
-  <body>
+  <body id="body">
     <!-- ****** NAVBAR ****** -->
     <nav class="navbar navbar-expand-md">
       <div class="container-fluid">
@@ -496,7 +496,109 @@
           </div>
         </div>
       </section>
+
+      <!-- ****** CONTACT *******-->
+      <section id="contact" class="container bg-light p-3">
+        <h2 class="display-6 text-danger">CONTACT</h2>
+        <article>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, hic
+            dolorum? Explicabo dolorem officia non molestiae ipsa laudantium
+            aliquam, eius quidem omnis perferendis voluptatum magni perspiciatis
+            accusantium fugiat placeat est?
+          </p>
+          <div class="row g-3">
+            <div class="col-md-4">
+              <i class="fas fa-phone fa-2x text-danger"></i>
+              <h5>Telephone</h5>
+              <a href="tel:+905555555555">+905555555555</a>
+            </div>
+            <div class="col-md-4">
+              <i class="fab fa-whatsapp fa-2x text-danger"></i>
+              <h5>Whatsapp</h5>
+              <a href="https://wa.me/+905555555555">+905555555555</a>
+            </div>
+            <div class="col-md-4">
+              <i class="fas fa-envelope fa-2x text-danger"></i>
+              <h5>E-mail</h5>
+              <a href="mailto:info@clarusway.com">info@clarusway.com</a>
+            </div>
+          </div>
+          <form class="row g-3 mt-3">
+            <div class="col-md-6">
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Enter name"
+              />
+            </div>
+            <div class="col-md-6">
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Enter email"
+              />
+            </div>
+            <div class="col-12">
+              <input
+                type="text"
+                class="form-control"
+                id="subject"
+                placeholder="Enter subject"
+              />
+            </div>
+            <div class="col-12">
+              <div class="form-floating">
+                <textarea
+                  class="form-control"
+                  placeholder="Enter your comment"
+                  id="floatingTextarea"
+                ></textarea>
+                <label for="floatingTextarea">Enter your comment</label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-danger px-5">Submit</button>
+            </div>
+          </form>
+        </article>
+        <article id="location" class="mt-4">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d114076.87257137455!2d-80.0397125!3d26.683608!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d8d6f618523787%3A0x3ba092c7d7a6471a!2sPalm%20Beach%2C%20FL%2C%20USA!5e0!3m2!1sen!2str!4v1685789359428!5m2!1sen!2str"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </article>
+      </section>
     </main>
+
+    <!-- **** FOOTER **** -->
+    <footer class="bg-dark text-center text-white p-4">
+      <div class="p-3 fa-2x">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-youtube"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-instagram"></i>
+      </div>
+      <div class="p-2 h6">
+        &copy
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Copyright by Clarusway
+      </div>
+    </footer>
+
+    <!-- ***UP-BUTTON*** -->
+    <a class="btn-up" href="#body">
+      <i class="fas fa-arrow-up"></i>
+    </a>
 
     <script src="./lib/fslightbox.js"></script>
     <script
