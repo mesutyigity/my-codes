@@ -53,12 +53,14 @@ const renderNews = (news) => {
   news.map((item) => {
     const { title, description, content, url, urlToImage } = item; //? destructure
     newsDiv.innerHTML += `
-      <div class="card" style="width: 18rem;">
-          <img src="${urlToImage}" class="card-img-top" alt="...">
-          <div class="card-body">
-              <h5 class="card-title">${title}</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="card">
+              <img src="${urlToImage}" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">${title}</h5>
+                  <p class="card-text">${content}</p>
+                  <a href="${url}" target="_blank" class="btn btn-danger">Go Detail</a>
+              </div>
           </div>
       </div>
       
