@@ -14,20 +14,26 @@ console.log("FETCH");
 
 let veri = "";
 
-fetch("https://api.github.com/user")
+fetch("https://api.github.com/users")
   .then((res) => {
     //! Error handling
     if (!res.ok) {
       throw new Error("Something went wrong", res.status);
+      // console.log("Something went wrong")
+    } else {
+      return res.json();
     }
-    return res.json();
   })
   .then((data) => {
     // veri = data
     // console.log(veri)
     showUsers(data);
   })
-  .catch((err) => console.log(err));
+  .catch((err) => {
+    console.log(err);
+    const usersDiv = document.getElementById("users");
+    usersDiv.innerHTML = `<h2 class="text-warning">${err}</h2>`;
+  });
 
 // console.log(veri)
 
