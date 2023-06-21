@@ -65,17 +65,18 @@
 // !callback hell olarak adlandirilan bu yapinin anlasilmasi ve surdurulebilirligi oldukca zordur.
 
 setTimeout(() => {
-  console.log("john:Hi");
+  console.log("john:Hi")
   setTimeout(() => {
-    console.log("Sarah: Hello");
+    console.log("Sarah: Hello")
     setTimeout(() => {
-      console.log("John: How Are you?");
+      console.log("John: How Are you?")
       setTimeout(() => {
-        console.log("Sarah:Fine and you?");
-      }, 1000);
-    }, 1000);
-  }, 1000);
-}, 1000);
+        console.log("Sarah:Fine and you?")
+      }, 1000)
+    }, 1000)
+  }, 1000)
+}, 1000)
+
 
 //? COZUMLER:
 //?----------------------------------------------------
