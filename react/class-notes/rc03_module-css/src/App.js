@@ -1,3 +1,4 @@
+import Card from "./components/card/Card"
 import data from "./data"
 
 function App() {
@@ -5,6 +6,7 @@ function App() {
   return (
     <>
       <h1>APP</h1>
+      <Card />
     </>
   )
 }
